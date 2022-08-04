@@ -1,12 +1,23 @@
-# React Project Starter
+# React TypeScript Template
 
-Forked from [TheSwordBreaker/vite-reactts-eslint-prettier](https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier) with added support for:
+These are the tools and libraries I reach for when creating a new frontend React project.
 
+To use this template, follow the steps below to create a new repository.
+
+Feedback and pull requests to the template are also welcomed.
+
+## Highlights
+
+- [Vite](https://vitejs.dev/blog/announcing-vite3.html) 3
+- [React](https://reactjs.org/blog/2022/03/29/react-v18.html) 18
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) v4
+- [React Query Library](https://react-query.tanstack.com/) v4 (using [Mock Service Worker](https://mswjs.io/) to test React Query hooks)
 - [Styled Components](https://styled-components.com/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [React Query Library](https://react-query.tanstack.com/) (with tests using [MSW](https://mswjs.io/) for custom hooks)
+- Pre-commit lint and test hooks
 
-## Installation
+The project uses Yarn 3. You can remove unwanted packages with [yarn remove](https://classic.yarnpkg.com/lang/en/docs/cli/remove/#toc-yarn-remove).
+
+## Use
 
 Follow steps for [creating a new repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
 
@@ -18,7 +29,7 @@ Clone the new repository:
 git clone git@github.com:yourName/whatcha-gonna-call-it.git
 ```
 
-Install dependencies:
+Install:
 
 ```bash
 cd whatcha-gonna-call-it
@@ -27,7 +38,7 @@ yarn install
 
 ## Start
 
-After installation:
+Run locally:
 
 ```bash
 yarn start
@@ -35,7 +46,7 @@ yarn start
 
 ## Test
 
-Runs tests with Jest, RTL, and MSW support
+Runs tests with Jest, RTL, and MSW support.
 
 ```bash
 yarn test
@@ -43,9 +54,13 @@ yarn test
 
 ## Build
 
-Build for production
+Create a production build to `dist/`:
 
 ```bash
 yarn build
-yarn serve # preview the build on port 4173
+yarn serve # preview the build
 ```
+
+## Acknowledgements
+
+Forked from [TheSwordBreaker/vite-reactts-eslint-prettier](https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier)
