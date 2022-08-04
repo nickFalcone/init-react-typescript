@@ -29,7 +29,7 @@ const Button = styled.button`
   }
 `;
 
-const CrabButton = (): JSX.Element => {
+export const CrabButton = (): JSX.Element => {
   const [count, setCount] = useState(0);
   const handleClick = () => setCount((count) => count + 1);
 
@@ -42,5 +42,3 @@ const CrabButton = (): JSX.Element => {
     </>
   );
 };
-
-export default CrabButton;

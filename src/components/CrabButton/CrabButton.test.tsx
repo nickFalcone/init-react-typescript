@@ -6,7 +6,7 @@ import userEvent from '@testing-library/user-event';
 import React from 'react';
 
 import { render, screen } from '../../../test-utils';
-import CrabButton from './CrabButton';
+import { CrabButton } from './CrabButton';
 
 describe('CrabButton', () => {
   test('renders CrabButton component with 1 image', () => {

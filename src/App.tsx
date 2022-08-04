@@ -1,12 +1,12 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import React from 'react';
 
-import CrabButton from './components/CrabButton/CrabButton';
-import GitHubProfile from './components/GitHubProfile/GitHubProfile';
+import { CrabButton } from './components/CrabButton/CrabButton';
+import { GitHubProfile } from './components/GitHubProfile/GitHubProfile';
 
 const queryClient = new QueryClient();
 
-const App = (): JSX.Element => {
+export const App = (): JSX.Element => {
   return (
     <>
       <QueryClientProvider client={queryClient}>
@@ -19,7 +19,7 @@ const App = (): JSX.Element => {
             <a href="https://vitejs.dev/">Vite</a>
           </li>
           <li>
-            <a href="https://reactjs.org/">React 17</a>
+            <a href="https://reactjs.org/">React 18</a>
           </li>
           <li>
             <a href="https://www.typescriptlang.org/">TypeScript</a>
@@ -46,5 +46,3 @@ const App = (): JSX.Element => {
     </>
   );
 };
-
-export default App;

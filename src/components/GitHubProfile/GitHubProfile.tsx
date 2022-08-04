@@ -24,7 +24,7 @@ export type Follower = {
   site_admin: boolean;
 };
 
-const GitHubProfile = ({ user }: { user: string }): JSX.Element => {
+export const GitHubProfile = ({ user }: { user: string }): JSX.Element => {
   const { isLoading, isError, error, data } = useGetGitHubProfile(user);
 
   return (
@@ -47,5 +47,3 @@ const GitHubProfile = ({ user }: { user: string }): JSX.Element => {
     </>
   );
 };
-
-export default GitHubProfile;

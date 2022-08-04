@@ -10,7 +10,7 @@ import React from 'react';
 
 import { screen } from '../../../test-utils';
 import { handlers } from '../../mocks/handlers';
-import GitHubProfile from './GitHubProfile';
+import { GitHubProfile } from './GitHubProfile';
 
 const queryCache = new QueryCache();
 const queryClient = new QueryClient({
