@@ -8,11 +8,11 @@ Feedback and pull requests to the template are also welcomed.
 
 ## Highlights
 
-- [Vite](https://vitejs.dev/blog/announcing-vite3.html) 3
-- [React](https://reactjs.org/blog/2022/03/29/react-v18.html) 18
+- [Vite](https://vitejs.dev/blog/announcing-vite4.html) v4
+- [React](https://reactjs.org/blog/2022/03/29/react-v18.html) v18
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) v4
 - [React Query Library](https://react-query.tanstack.com/) v4 (using [Mock Service Worker](https://mswjs.io/) to test React Query hooks)
-- [Styled Components](https://styled-components.com/)
+- [Styled Components](https://styled-components.com/) v5
 - Pre-commit lint and test hooks
 
 The project uses Yarn 3. You can remove unwanted packages with [yarn remove](https://classic.yarnpkg.com/lang/en/docs/cli/remove/#toc-yarn-remove).
