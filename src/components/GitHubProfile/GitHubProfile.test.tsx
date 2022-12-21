@@ -2,7 +2,11 @@
 // used to access global context providers, data stores etc.
 // https://testing-library.com/docs/react-testing-library/setup#custom-render
 
-import { QueryCache, QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import {
+  QueryCache,
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query';
 import { render } from '@testing-library/react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';

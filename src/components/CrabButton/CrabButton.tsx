@@ -31,7 +31,7 @@ const Button = styled.button`
 
 export const CrabButton = (): JSX.Element => {
   const [count, setCount] = useState(0);
-  const handleClick = () => setCount((count) => count + 1);
+  const handleClick = () => setCount(count => count + 1);
 
   return (
     <Button onClick={handleClick}>
