@@ -1,2 +1,2 @@
-import 'whatwg-fetch';
 // satisfy React Query
+import 'whatwg-fetch';

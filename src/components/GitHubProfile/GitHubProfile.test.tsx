@@ -1,6 +1,6 @@
-// // ./test-utils.tsx sets up a custom render that could be
-// // used to access global context providers, data stores etc.
-// // https://testing-library.com/docs/react-testing-library/setup#custom-render
+// ./test-utils.tsx sets up a custom render that could be
+// used to access global context providers, data stores etc.
+// https://testing-library.com/docs/react-testing-library/setup#custom-render
 
 import { QueryCache, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { render } from '@testing-library/react';

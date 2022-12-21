@@ -34,11 +34,9 @@ export const CrabButton = (): JSX.Element => {
   const handleClick = () => setCount((count) => count + 1);
 
   return (
-    <>
-      <Button onClick={handleClick}>
-        <StylishCrab src={crab} alt="crab emoji" />
-        Clicked {count} time{count !== 1 ? 's' : ''}
-      </Button>
-    </>
+    <Button onClick={handleClick}>
+      <StylishCrab src={crab} alt="crab emoji" />
+      Clicked {count} time{count !== 1 ? 's' : ''}
+    </Button>
   );
 };
