@@ -41,7 +41,7 @@ yarn install
 Run locally:
 
 ```bash
-yarn start
+yarn dev
 ```
 
 ## Test
@@ -54,11 +54,10 @@ yarn test
 
 ## Build
 
-Create a production build to `dist/`:
+Create a production build to `dist/` and preview:
 
 ```bash
-yarn build
-yarn serve # preview the build
+yarn preview
 ```
 
 ## Acknowledgements
