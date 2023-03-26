@@ -1,13 +1,12 @@
 import './index.css';
 
-import { worker } from 'mocks/browser';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
 import { App } from './App';
 
-// mock response when in test
-if (process.env.NODE_ENV === 'test') {
+if (process.env.NODE_ENV === 'test' || process.env.NODE_ENV === 'development') {
+  const { worker } = await import('./mocks/browser');
   worker.start();
 }
 
